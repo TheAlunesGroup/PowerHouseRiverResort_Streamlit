@@ -51,3 +51,5 @@ with st.container():
    with I52:
        Image_52 = Image.open("Image_5.jpg")
        st.image(Image_52)
+st.write("© 2025 The Alunes Group. All rights reserved")
+st.write("© 2025 Powerhouse River Resort. All rights reserved")
