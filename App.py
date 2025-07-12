@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 Main_Image = Image.open("PRR_Main_Image.TIFF")
-st.set_page_config(layout="wide", page_title="PowerHouse River Resort")
+st.set_page_config(layout="centered", page_title="PowerHouse River Resort")
 st.image(Main_Image, width=250)
 st.header("PowerHouse River Resort", divider="green")
 st.write("")
